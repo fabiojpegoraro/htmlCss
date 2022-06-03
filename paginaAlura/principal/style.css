@@ -1,0 +1,57 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    font: normal 14px 'Lato', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+}
+
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #051932;
+    color: #FFF;
+    border-top: 4px solid #2A7AE4;
+    display: block;
+    height: 80px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-logo {
+    height: 36px;
+    filter: brightness(100);
+    
+}
+
+.header-arrow-down {
+    height: 12px;
+    width: 12px;
+    filter: brightness(100);
+    margin-left: 5px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    max-width: 1200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-button {
+    margin-right: 40px;
+    font-weight: 600;
+}
