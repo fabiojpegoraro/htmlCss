@@ -26,7 +26,6 @@ a:visited {
 .header-logo {
     height: 36px;
     filter: brightness(100);
-    
 }
 
 .header-arrow-down {
@@ -39,7 +38,6 @@ a:visited {
 .header-container {
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
     max-width: 1200px;
     align-items: center;
     margin-left: auto;
@@ -57,7 +55,7 @@ a:visited {
 
 .header-serch {
     position: absolute;
-    left: 480px;
+    left: 230px;
     width: 30px;
     height: 30px;
     border-bottom-left-radius: 4px;
@@ -81,9 +79,42 @@ a:visited {
 .header-nav-button {
     margin-right: 40px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .header-nav-notifications {
     width: 22px;
     fill: #FFF;
+}
+
+.header-user-points-button {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.header-user-points {
+    margin-bottom: 2px;
+}
+
+.header-user-points-numbers {
+    font-weight: 80;
+}
+
+.header-user-points-xp {
+    font-weight: 600;
+    color: #03C2E0;
+}
+
+.points-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90px;
+}
+
+.points-grid-cell {
+    width: 7px;
+    height: 7px;
+    margin: 1px;
+    padding: 0px;
+    background-color: #3D608F;
 }
