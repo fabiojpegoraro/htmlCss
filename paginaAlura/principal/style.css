@@ -166,9 +166,16 @@ a:visited {
     height: 60px;
     width: 60px;
     border-radius: 50%;
+    border: 5px solid #FFF;
 }
 
 .user-avatar-wrapper {
     background-color: #FFF;
-    position: relative;
+}
+
+.user-avatar-wrapper .container  {
+    display: flex;
+    justify-content: flex-end;
+    height: 0;
+    align-items: center;
 }
