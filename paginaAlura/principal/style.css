@@ -256,3 +256,73 @@ a:visited {
     padding: 0;
     margin-top: 20px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    border-top: 1.5px solid #ecf2f6;
+    margin-top: 150px;
+    padding: 20px 0;
+    padding-top: 35px;
+    text-transform: uppercase;
+    height: 130px;
+}
+
+.footer-logo {
+    display: block;
+    align-self: flex-start;
+    width: 15%;
+    text-align: center;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: normal; */
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-item-link {
+    line-height: 2.17;
+    font-size: 12px;
+    color: #8696a0;
+    text-decoration: none;
+}
+
+.footer-footerGroup {
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: space-around;
+    width: 530px;
+}
+
+.footer-links-title {
+    text-transform: uppercase;
+    color: #8696a0;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.footer-links-list {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-socialMedia-item {
+    height: 50px;
+    width: 50px;
+}
+.footer-socialMedia-item-link {
+    height: 100%;
+    width: 100%;
+}
+
+.youtube-icon {
+    fill: #8696a0;
+}
